@@ -1,5 +1,4 @@
 import video from "../data/video.js";
-import Comments from "./Comments"
 import React from "react";
 import Iframe from "./IFrame";
 import Buttons from "./Buttons";
@@ -14,8 +13,6 @@ function App() {
       <Iframe video={video} />
       <VideoDescription video={video} />
       <Buttons video={video}/>
-      <Comments video={video} />
-     
     </div>
      
   );

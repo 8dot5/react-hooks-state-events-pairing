@@ -17,4 +17,4 @@ function Comments({video}) {
     )
 }
 
-export default Comments;4
+export default Comments;
